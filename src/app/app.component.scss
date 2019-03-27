@@ -1,0 +1,22 @@
+
+.emoji img {
+  width: 60px;
+  padding-left: 15px;
+}
+
+.emoji {
+  display: flex;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table {
+  width: 100%
+}
+
+
+.main {
+  padding: 30px;
+}

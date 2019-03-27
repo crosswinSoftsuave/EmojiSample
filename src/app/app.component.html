@@ -1,0 +1,19 @@
+<div class="main">
+  <table>
+    <tr *ngFor="let i of emojiArray">
+      <td>
+        <div class="emoji">
+          <div>
+            <h5>{{i}}</h5>
+          </div>
+          <div *ngIf="i%3 === 0">
+            <img src="../assets/image/happy.png">
+          </div>
+          <div *ngIf="i%5 === 0" class="even">
+            <img src="../assets/image/sad.png">
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
